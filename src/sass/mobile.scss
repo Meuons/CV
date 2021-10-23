@@ -1,0 +1,41 @@
+@media screen and (max-width: 568px) {
+    body{
+        font-size: 0.7em;
+        text-align: center;
+    }
+
+    #mainContent{
+        width: 400px;
+    }
+    header {
+
+        position: fixed;
+        z-index: 10;
+    }
+    tbody{
+        height: 60px;
+    }
+
+    #mainContent{
+        position: absolute;
+        align-content: center;
+        justify-content: center;
+        top: 30px;
+        box-shadow: 5px 5px 5px rgb(0, 0, 0);
+        background-color: rgb(218, 251, 255);
+        padding: 10px;
+    }
+
+    table{
+        max-width: 315px;
+        margin-left: 43px;
+    }
+    header{
+        height: 30px;
+        }
+        li{
+           
+            position: absolute;
+            left: 0;
+        }
+}
