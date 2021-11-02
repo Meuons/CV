@@ -3,10 +3,11 @@
         font-size: 0.7em;
         text-align: center;
     }
-
+/*Lock the width of the main content*/
     #mainContent{
         width: 400px;
     }
+   /*Make the header always visible on top*/
     header {
 
         position: fixed;
